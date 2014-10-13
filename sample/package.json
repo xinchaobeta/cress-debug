@@ -1,0 +1,11 @@
+{
+  "name": "nw",
+  "main": "debug.html",
+  "version": "",
+  "window": {
+    "title": "nw",
+    "position": "mouse",
+    "resizable": true,
+    "toolbar": true
+  }
+}

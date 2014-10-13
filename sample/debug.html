@@ -1,0 +1,22 @@
+<script>
+var gui = require('nw.gui')
+, win = gui.Window.get()
+, clip = gui.Clipboard.get()
+, script = gui.App.argv[0]
+, devtool = win.showDevTools()
+, load
+;
+
+var nativeMenuBar = new gui.Menu({ type: "menubar" });
+nativeMenuBar.createMacBuiltin("nw");
+win.menu = nativeMenuBar;
+
+win.hide();
+
+win.on('devtools-closed', function(){
+  win.close();
+});
+
+
+
+</script>

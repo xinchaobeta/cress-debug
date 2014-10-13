@@ -1,0 +1,23 @@
+{
+  "name": "cress-debug",
+  "version": "0.0.1",
+  "description": "cress debug ",
+  "main": "index.js",
+  "dependencies": {
+    "extend": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinchaobeta/cress-debug.git"
+  },
+  "author": "cress",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinchaobeta/cress-debug/issues"
+  },
+  "homepage": "https://github.com/xinchaobeta/cress-debug"
+}
