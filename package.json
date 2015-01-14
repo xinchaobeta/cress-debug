@@ -1,6 +1,6 @@
 {
   "name": "cress-debug",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The chromium devtool for debugging nodejs on Mac OX, Linux and Windows based on node-webkit.",
   "main": "devtool.js",
   "dependencies": {
