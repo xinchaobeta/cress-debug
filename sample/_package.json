@@ -1,0 +1,11 @@
+{
+  "name": "nw",
+  "main": "index.html",
+  "version": "",
+  "window": {
+    "title": "nw",
+    "position": "center",
+    "resizable": true,
+    "toolbar": true
+  }
+}

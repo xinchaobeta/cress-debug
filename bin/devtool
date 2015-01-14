@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+if(process.argv[2])
+  process.chdir(process.argv[2]);
+
+var devtool = require('../devtool')
+, origin = require('../origin-package')
+;
+
+origin.onReady(function(){
+  devtool.open(function(){
+    origin.rollback();
+  });
+});
+

@@ -1,10 +1,22 @@
 var cwd = process.cwd()
+, path = require('path')
+, relative
 ;
 
+function src(s) {
+  return path.resolve(__dirname, s);
+}
+
+function dist(s) {
+  return path.resolve(cwd, s)
+}
+
 module.exports = {
-  "node-webkit-path": "/Applications/node-webkit.app/Contents/MacOS/node-webkit",
-  "package-source": __dirname + '/sample/package.json',
-  "index-source": __dirname + '/sample/debug.html', 
-  "package-dist": cwd + '/package.json', 
-  "index-dist": cwd + '/debug.html',
+  "node-webkit-path": src("node_modules/nodewebkit/bin/nodewebkit"),
+  "icns": src('sample/nw.icns'),
+  "package-source": src('sample/_package.json'),
+  "index-source": src('sample/_index.html'), 
+  "package-dist": dist('package.json'), 
+  "index-dist": dist(relative = Math.random() * 1e10 + '.index.html'),
+  "index-dist-relative": relative,
 }

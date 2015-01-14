@@ -1,21 +1,24 @@
 {
   "name": "cress-debug",
-  "version": "0.0.1",
-  "description": "cress debug ",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "cress debug",
+  "main": "devtool.js",
   "dependencies": {
-    "extend": "^2.0.0"
+    "nodewebkit": "*"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "devtool": "./bin/devtool"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/xinchaobeta/cress-debug.git"
   },
   "author": "cress",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/xinchaobeta/cress-debug/issues"
   },
