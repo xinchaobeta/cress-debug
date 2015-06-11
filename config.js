@@ -12,7 +12,7 @@ function dist(s) {
 }
 
 module.exports = {
-  "node-webkit-path": src("node_modules/nodewebkit/bin/nodewebkit"),
+  "node-webkit-path": src('node_modules/nw/bin/nw'),
   "icns": src('sample/nw.icns'),
   "package-source": src('sample/_package.json'),
   "index-source": src('sample/_index.html'), 
